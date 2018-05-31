@@ -149,7 +149,7 @@ jobs:
       GOOGLE_PROJECT_ID: planet4-production
       HELM_NAMESPACE: india
       HELM_RELEASE: planet4-india-release
-      WP_DB_NAME: planet4-india_wordpress_master
+      WP_DB_NAME: planet4-india_wordpress_release
       WP_STATELESS_BUCKET: planet4-india-stateless-release
       WP_TITLE: Greenpeace India Release Candidate
     steps:
@@ -166,7 +166,7 @@ jobs:
           environment:
             NEWRELIC_APPNAME: P4 India Release
           command: |
-            make deploy
+            BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make deploy
 
   build-tag:
     <<: *defaults

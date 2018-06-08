@@ -85,7 +85,8 @@ jobs:
           environment:
             NEWRELIC_APPNAME: P4 India Development
           command: |
-            BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make deploy
+            export BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num)
+            make deploy
 
   build-release:
     <<: *defaults

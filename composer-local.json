@@ -3,6 +3,8 @@
   "require": {
     "greenpeace/planet4-child-theme-india": "0.*"
   },
+  "description": "Composer file for GPIndia planet4 website",
+  "license": "MIT",
   "scripts": {
     "core:language": "wp language core install --activate hi_IN",
     "install:plugin-wpml": "wp plugin install --activate https://raw.githubusercontent.com/greenpeace/planet4-3rdparty-plugins/master/sitepress-multilingual-cms.4.0.6.zip",

@@ -1,7 +1,7 @@
 {
   "name": "planet4-india/planet4-india",
   "require": {
-    "greenpeace/planet4-child-theme-india": "0.*",
+    "greenpeace/planet4-child-theme-india": "v0.*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-translation-management": "*",
     "plugins/wpml-string-translation": "*"

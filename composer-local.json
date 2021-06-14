@@ -4,7 +4,8 @@
     "greenpeace/planet4-child-theme-india": "v0.*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-translation-management": "*",
-    "plugins/wpml-string-translation": "*"
+    "plugins/wpml-string-translation": "*",
+    "plugins/wpml-media-translation": "*"
   },
   "description": "Composer file for GPIndia planet4 website",
   "license": "MIT",
